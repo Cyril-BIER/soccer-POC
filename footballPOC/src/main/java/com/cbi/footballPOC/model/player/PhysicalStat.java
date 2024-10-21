@@ -6,10 +6,10 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class PhysicalStat {
-    private Integer strength;
-    private Integer technical;
-    private Integer speed;
-    private Integer stamina;
+    private int strength;
+    private int technical;
+    private int speed;
+    private int stamina;
 
     public PhysicalStat add(PhysicalStat stat) {
         return new PhysicalStat(
