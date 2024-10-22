@@ -12,9 +12,13 @@ public class Player {
 
     private RoleStat roleStat;
     private PhysicalStat basePhysic;
-    private PhysicalStat bonusPhysic;
+    private Outfit outfit;
+
+    public PhysicalStat getPhysicalBonus(){
+        return outfit.getBonus();
+    }
 
     public PhysicalStat getTotalPhysic(){
-        return basePhysic.add(bonusPhysic);
+        return basePhysic.add(this.getPhysicalBonus());
     }
 }
