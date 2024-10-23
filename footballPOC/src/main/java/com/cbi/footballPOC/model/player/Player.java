@@ -1,5 +1,7 @@
 package com.cbi.footballPOC.model.player;
 
+import com.cbi.footballPOC.model.stats.PhysicalStat;
+import com.cbi.footballPOC.model.stats.RoleStat;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

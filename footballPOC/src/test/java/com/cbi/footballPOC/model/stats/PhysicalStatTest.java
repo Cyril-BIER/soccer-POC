@@ -1,4 +1,4 @@
-package com.cbi.footballPOC.model.player;
+package com.cbi.footballPOC.model.stats;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,5 +1,8 @@
 package com.cbi.footballPOC.model.player;
 
+import com.cbi.footballPOC.model.item.Boots;
+import com.cbi.footballPOC.model.stats.PhysicalStat;
+import com.cbi.footballPOC.model.stats.RoleStat;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
