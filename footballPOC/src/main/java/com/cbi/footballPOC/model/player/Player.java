@@ -11,7 +11,7 @@ public class Player {
     private Integer money;
 
     private RoleStat roleStat;
-    private PhysicalStat basePhysic;
+    private PhysicalStat physicalBase;
     private Outfit outfit;
 
     public PhysicalStat getPhysicalBonus(){
@@ -19,6 +19,6 @@ public class Player {
     }
 
     public PhysicalStat getTotalPhysic(){
-        return basePhysic.add(this.getPhysicalBonus());
+        return physicalBase.add(this.getPhysicalBonus());
     }
 }
